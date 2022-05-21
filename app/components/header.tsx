@@ -2,7 +2,7 @@ import { SignedIn, UserButton } from "@clerk/remix";
 
 export default function Header() {
   return (
-    <header className="w-screen h-28 flex flex-row justify-between px-10 items-center shadow">
+    <header className="w-screen h-28 flex flex-row justify-between px-10 items-center shadow z-1 relative">
       <span className="text-2xl text-bold underline">Disco Stack</span>
       <SignedIn>
         <UserButton />
