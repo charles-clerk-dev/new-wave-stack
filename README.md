@@ -1,6 +1,8 @@
 # Remix Disco Stack
 
-![The Remix Disco Stack](https://files.slack.com/files-pri/THZ1FAQMA-F03GN661UE6/screen_shot_2022-05-23_at_3.35.03_pm.png)
+![The Remix Disco Stack](https://user-images.githubusercontent.com/96198083/169910911-f443b799-a77c-4718-95bf-1776b0c79d8b.png)
+
+
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
