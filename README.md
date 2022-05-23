@@ -23,9 +23,7 @@ This app requires Node v.14 or newer
 ## Development
 
 - Set up a Clerk application
-  The first step is to create a new application from the Clerk dashboard.
-
-Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
+  The first step is to create a new application from the Clerk dashboard. Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
 
 - Spin up a new application using the Disco Stack Template:
 
