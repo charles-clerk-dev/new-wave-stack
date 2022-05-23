@@ -4,6 +4,10 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
+## Requirements
+
+This app requires Node v.14 or newer
+
 ## What's in the stack
 
 - [Netlify Deployment](https://www.netlify.com/)
