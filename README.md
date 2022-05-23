@@ -17,8 +17,13 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 - Static Types with [TypeScript](https://typescriptlang.org)
 
 ## Development
+- Install Netlify CLI
+    If you don't already have the Netlify CLI downloaded, run:
+    ```she
+    npm i -g netlify-cli@latest
+    ```
 
-1. Sign Up with Clerk
+- Sign Up with Clerk
 
     If you haven't **[signed up with Clerk](https://dashboard.clerk.dev/sign-up)** yet. Do so now.
   
