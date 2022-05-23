@@ -4,10 +4,6 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-## Requirements
-
-This app requires Node v.14 or newer
-
 ## What's in the stack
 
 - [Netlify Deployment](https://www.netlify.com/)
@@ -22,9 +18,13 @@ This app requires Node v.14 or newer
 
 ## Development
 
-- Set up a Clerk application
-  The first step is to create a new application from the Clerk dashboard.
-  Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
+1. Sign Up with Clerk
+
+    If you haven't **[signed up with Clerk](https://dashboard.clerk.dev/sign-up)** yet. Do so now.
+  
+- Create a new Clerk application
+
+    Create a new application from the Clerk dashboard. Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
 
 - Spin up a new application using the Disco Stack Template:
 
@@ -34,11 +34,17 @@ This app requires Node v.14 or newer
 
 - When asked 'Do you want me to run `npm install`?' select <b>Yes</b>:
 - Select <b>TypeScript</b>:
+
 - Navigate into your project directory
   ```sh
   cd <your-app>
   ```
-- Create a `.env` file in the root of your application. Find your \*\*[Clerk API keys on the Dashboard](https://dashboard.clerk.dev/last-active?path=api-keys) and add them to that file like this:
+- Create a `.env` file.
+```sh
+  touch .env
+  ```
+  
+- Find your **[Frontend API key and Backend API key](https://dashboard.clerk.dev/last-active?path=api-keys)**  on the Dashboard and add them to that file like this:
 
 ```
 CLERK_FRONTEND_API=<YOUR_FRONTEND_API>
