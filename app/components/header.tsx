@@ -1,9 +1,20 @@
-import { SignedIn, UserButton } from "@clerk/remix";
+import { SignedIn, UserButton, SignedOut } from "@clerk/remix";
 
 export default function Header() {
   return (
-    <header className="w-screen h-28 flex flex-row justify-between px-10 items-center shadow z-1 relative">
-      <span className="text-2xl text-bold underline">Disco Stack</span>
+    <header className="absolute flex flex-row items-center justify-between w-screen px-10 shadow bg-white/50 h-28 z-1">
+      <div className="flex flex-row items-center w-screen text-6xl font-bold text-blue-700">
+        Disco Stack
+      </div>
+      <SignedOut>
+        <span className="text-2xl text-white whitespace-nowrap">
+          powered by
+        </span>
+        <img
+          src={"https://clerk.dev/images/clerk-logo.svg"}
+          className="h-10 mx-6"
+        />
+      </SignedOut>
       <SignedIn>
         <UserButton />
       </SignedIn>
