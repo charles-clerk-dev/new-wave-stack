@@ -4,10 +4,6 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-```
-npx create-remix@latest --template charles-clerk-dev/remix-disco-stack <your-app>
-```
-
 ## What's in the stack
 
 - [Netlify Deployment](https://www.netlify.com/)
@@ -15,7 +11,6 @@ npx create-remix@latest --template charles-clerk-dev/remix-disco-stack <your-app
 - Document-relational database with [Fauna](https://fauna.com)
 - Styling with [Tailwind](https://tailwindcss.com/)
 - End-to-end testing with [Cypress](https://cypress.io)
-- Local third party request mocking with [MSW](https://mswjs.io)
 - Unit testing with [Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com)
 - Code formatting with [Prettier](https://prettier.io)
 - Linting with [ESLint](https://eslint.org)
