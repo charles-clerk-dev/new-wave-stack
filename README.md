@@ -17,12 +17,6 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 - Static Types with [TypeScript](https://typescriptlang.org)
 
 ## Development
-- Install Netlify CLI
-    If you don't already have the Netlify CLI downloaded, run:
-    ```she
-    npm i -g netlify-cli@latest
-    ```
-
 - Sign Up with Clerk
 
     If you haven't **[signed up with Clerk](https://dashboard.clerk.dev/sign-up)** yet. Do so now.
@@ -44,6 +38,7 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
   ```sh
   cd <your-app>
   ```
+  
 - Create a `.env` file.
 ```sh
   touch .env
@@ -55,6 +50,12 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 CLERK_FRONTEND_API=<YOUR_FRONTEND_API>
 CLERK_API_KEY=<YOUR_CLERK_API_KEY>
 ```
+
+- Install Netlify CLI
+    If you don't already have the Netlify CLI downloaded, run:
+    ```she
+    npm i -g netlify-cli@latest
+    ```
 
 -Trigger an initial build
 
