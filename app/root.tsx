@@ -32,7 +32,7 @@ function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="overflow-y-hidden">
         <Outlet />
         <ScrollRestoration />
         <Scripts />

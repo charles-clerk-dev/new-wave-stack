@@ -18,10 +18,10 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ## Development
 
-- Set up a Clerk application
-  The first step is to create a new application from the Clerk dashboard.
-
-Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
+- Sign Up with Clerk application
+  If you haven't **[signed up with Clerk](https://dashboard.clerk.dev/sign-up)** yet. Do so now.
+  Then create a new application from the Clerk dashboard.
+  Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
 
 - Spin up a new application using the Disco Stack Template:
 
@@ -58,9 +58,7 @@ If everything is set up correctly, you should see something that looks like this
 
 <img width="1745" alt="Screen Shot 2022-05-23 at 4 23 49 PM" src="https://user-images.githubusercontent.com/96198083/169914515-e35dde08-05e9-4d9f-ace1-a8d185e71a8e.png">
 
-- That's it!
-
-You're all set to start building your Remix application with complete user management provided by Clerk.
+That's it! You're all set to start building your Remix application with complete user management provided by Clerk.
 
 ## Database
 

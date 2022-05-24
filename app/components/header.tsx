@@ -2,7 +2,7 @@ import { SignedIn, UserButton, SignedOut } from "@clerk/remix";
 
 export default function Header() {
   return (
-    <header className="absolute flex flex-row items-center justify-between w-screen px-10 shadow bg-white/50 h-28 z-1">
+    <header className="flex flex-row items-center justify-between w-screen px-10 shadow  bg-white/50 h-28 z-1">
       <div className="flex flex-row items-center w-screen text-6xl font-bold text-blue-700">
         Disco Stack
       </div>
