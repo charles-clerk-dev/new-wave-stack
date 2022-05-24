@@ -87,7 +87,7 @@ For a better understanding about how Fauna works with Remix and Clerk, it is hig
 
 ## Styling
 
-This template is pre-configured to use Tailwind styling. For more information about Tailwind classes and core concepts, check out the \*\*[Tailwind documentation](https://tailwindcss.com/docs).
+This template is pre-configured to use Tailwind styling. For more information about Tailwind classes and core concepts, check out the **[Tailwind documentation](https://tailwindcss.com/docs)**.
 
 ## Deployment
 
