@@ -1,8 +1,16 @@
 {
-  "name": "remix-template-netlify",
+  "name": "remix-disco-stack",
   "private": true,
-  "description": "",
-  "license": "",
+  "description": "The Remix Stack for deploying to Netlify with Clerk authentication, Fauna database client, testing, linting, and more.",
+  "keywords": [
+    "remix",
+    "remix-stack",
+    "clerk",
+    "faunadb",
+    "tailwind",
+    "netlify"
+  ],
+  "license": "MIT",
   "sideEffects": false,
   "scripts": {
     "build": "npm run build:css && remix build",
@@ -18,9 +26,9 @@
   "dependencies": {
     "@clerk/remix": "^0.5.0",
     "@netlify/functions": "^1.0.0",
-    "@remix-run/netlify": "^1.5.1",
-    "@remix-run/node": "^1.5.1",
-    "@remix-run/react": "^1.5.1",
+    "@remix-run/netlify": "*",
+    "@remix-run/node": "*",
+    "@remix-run/react": "*",
     "cross-env": "^7.0.3",
     "faunadb": "^4.5.4",
     "jest": "^28.1.0",
@@ -28,8 +36,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.5.1",
-    "@remix-run/eslint-config": "^1.5.1",
+    "@remix-run/dev": "*",
+    "@remix-run/eslint-config": "*",
     "@testing-library/dom": "^8.13.0",
     "@testing-library/react": "12",
     "@types/jest": "^27.5.1",
