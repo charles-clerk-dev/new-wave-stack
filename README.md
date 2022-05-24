@@ -18,10 +18,13 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ## Development
 
-- Sign Up with Clerk application
+- Sign Up with Clerk
+
   If you haven't **[signed up with Clerk](https://dashboard.clerk.dev/sign-up)** yet. Do so now.
-  Then create a new application from the Clerk dashboard.
-  Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
+
+- Create a new Clerk application
+
+  Create a new application from the Clerk dashboard. Look here for information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
 
 - Spin up a new application using the Disco Stack Template:
 
@@ -31,16 +34,29 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 
 - When asked 'Do you want me to run `npm install`?' select <b>Yes</b>:
 - Select <b>TypeScript</b>:
+
 - Navigate into your project directory
   ```sh
   cd <your-app>
   ```
-- Create a `.env` file in the root of your application. Find your \*\*[Clerk API keys on the Dashboard](https://dashboard.clerk.dev/last-active?path=api-keys) and add them to that file like this:
+- Create a `.env` file.
+
+```sh
+  touch .env
+```
+
+- Find your **[Frontend API key and Backend API key](https://dashboard.clerk.dev/last-active?path=api-keys)** on the Dashboard and add them to that file like this:
 
 ```
 CLERK_FRONTEND_API=<YOUR_FRONTEND_API>
 CLERK_API_KEY=<YOUR_CLERK_API_KEY>
 ```
+
+- Install Netlify CLI
+  If you don't already have the Netlify CLI downloaded, run:
+  ```she
+  npm i -g netlify-cli@latest
+  ```
 
 -Trigger an initial build
 
@@ -70,7 +86,7 @@ For a better understanding about how Fauna works with Remix and Clerk, it is hig
 
 ## Styling
 
-This template is pre-configured to use Tailwind styling. For more information about Tailwind classes and core concepts, check out the \*\*[Tailwind documentation](https://tailwindcss.com/docs).
+This template is pre-configured to use Tailwind styling. For more information about Tailwind classes and core concepts, check out the **[Tailwind documentation](https://tailwindcss.com/docs)**.
 
 ## Deployment
 
