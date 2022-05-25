@@ -1,6 +1,6 @@
 # Remix Disco Stack
 
-![The Remix Disco Stack](https://user-images.githubusercontent.com/96198083/169911081-11aebd28-6839-4357-9c93-1674c3750f15.png)
+![The Remix Disco Stack](https://user-images.githubusercontent.com/96198083/170325092-742ab059-a2c4-4fd3-8e50-22b681ee70ad.png)
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
