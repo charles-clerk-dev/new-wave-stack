@@ -6,7 +6,8 @@ import {
   useUser
 } from '@clerk/remix';
 import Header from '../components/header';
-import Footer from '../components/footer';
+import LogoBanner from '../components/logo-banner';
+import Footer from '../components/logo-banner';
 
 export default function Index() {
   const { user } = useUser();
@@ -39,7 +40,7 @@ export default function Index() {
             Hey there {user?.firstName}. Let's boogie...
           </h2>
         </SignedIn>
-        <Footer />
+        <LogoBanner />
       </main>
     </section>
   );

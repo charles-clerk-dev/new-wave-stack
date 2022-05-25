@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function LogoBanner() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-[10vh] shadow-2xl bg-white/70 bg-blur-lg ">
       <div className="flex flex-row items-center justify-around w-1/2">
