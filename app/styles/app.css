@@ -546,10 +546,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -564,10 +560,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.whitespace-nowrap {
-  white-space: nowrap;
 }
 
 .rounded {
@@ -623,11 +615,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -664,9 +651,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.375;
 }
 
-.text-blue-700 {
+.text-gray-800 {
   --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -677,11 +664,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {

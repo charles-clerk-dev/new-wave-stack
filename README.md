@@ -20,22 +20,24 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ### Sign Up with Clerk
 
-  **[Sign up with Clerk](https://dashboard.clerk.dev/sign-up)** if you haven't already.
+**[Sign up with Clerk](https://dashboard.clerk.dev/sign-up)** if you haven't already.
 
 ### Create a new Clerk application
 
-  Create a new application from the Clerk dashboard. Check out the Clerk docs for more information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
+Create a new application from the Clerk dashboard. Check out the Clerk docs for more information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
 
 ### Create a new application using the Disco Stack Template:
 
-  ```sh
-  npx create-remix@latest --template charles-clerk-dev/remix-disco-stack <your-app> 
-  ```
+```sh
+npx create-remix@latest --template charles-clerk-dev/remix-disco-stack <your-app>
+```
 
 ### Navigate into your project directory
-  ```sh
-  cd <your-app>
-  ```
+
+```sh
+cd <your-app>
+```
+
 ### Create a `.env` file.
 
 ```sh
@@ -50,10 +52,12 @@ CLERK_API_KEY=<YOUR_CLERK_API_KEY>
 ```
 
 ### Install Netlify CLI
-  If you don't already have the Netlify CLI downloaded, run:
-  ```she
-  npm i -g netlify-cli@latest
-  ```
+
+If you don't already have the Netlify CLI downloaded, run:
+
+```she
+npm i -g netlify-cli@latest
+```
 
 ### Trigger an initial build
 
