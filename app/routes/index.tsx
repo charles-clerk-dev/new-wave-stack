@@ -7,7 +7,6 @@ import {
 } from '@clerk/remix';
 import Header from '../components/header';
 import LogoBanner from '../components/logo-banner';
-import Footer from '../components/logo-banner';
 
 export default function Index() {
   const { user } = useUser();
