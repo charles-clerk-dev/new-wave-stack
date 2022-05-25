@@ -26,10 +26,10 @@ export default function Index() {
         </div>
         <SignedOut>
           <div className="flex flex-row justify-around w-1/4 m-auto text-2xl text-white">
-            <button className="inline-block py-3 text-lg font-medium leading-snug text-blue-600 uppercase transition duration-150 ease-in-out bg-white rounded shadow-md px-7 hover:bg-gray-100 hover:shadow-lg focus:bg-gray-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">
+            <button className="inline-block w-1/3 py-3 text-lg font-medium leading-snug text-blue-600 uppercase transition duration-150 ease-in-out bg-white rounded shadow-md px-7 hover:bg-gray-100 hover:shadow-lg focus:bg-gray-100 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">
               <SignInButton />
             </button>
-            <button className="inline-block py-3 text-lg font-medium leading-snug text-white uppercase transition duration-150 ease-in-out bg-blue-600 rounded shadow-md px-7 hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">
+            <button className="inline-block w-1/3 py-3 text-lg font-medium leading-snug text-white uppercase transition duration-150 ease-in-out bg-blue-600 rounded shadow-md px-7 hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg">
               <SignUpButton />
             </button>
           </div>
