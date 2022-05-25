@@ -4,15 +4,15 @@ export default function Header() {
   return (
     <>
       <SignedIn>
-        <header className="flex items-center justify-between w-screen px-10 shadow bg-white/70 h-[10vh]">
-          <span className="flex">
-            <div className="text-2xl text-gray-800">powered by</div>
+        <header className="flex items-center justify-between w-screen px-10 py-4 mb-4 shadow bg-white/70">
+          <div className="flex items-center">
+            <span className="text-lg text-gray-800">powered by</span>
             <img
-              src={'https://clerk.dev/images/clerk-logo.svg'}
-              className="h-10 mx-6"
+              src="https://clerk.dev/images/clerk-logo.svg"
+              className="h-6 mx-3"
             />
-          </span>
-          <UserButton />
+          </div>
+          <UserButton afterSignOutUrl="/" />
         </header>
       </SignedIn>
       <SignedOut>
