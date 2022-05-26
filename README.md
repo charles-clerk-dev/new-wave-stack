@@ -4,7 +4,7 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-To view this template in deployment visit: [New Wave Stack](new-wave-stack.netlify.app)
+To view this template in deployment visit: [new-wave-stack.netlify.app](https://new-wave-stack.netlify.app/)
 
 ## What's in the stack
 
