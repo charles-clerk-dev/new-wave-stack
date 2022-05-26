@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <main className="flex flex-col items-center justify-center flex-1 text-white backdrop-blur-sm">
       <div className="pb-10">
-        <h1 className="font-bold uppercase text-9xl text-shadow-lg">
+        <h1 className="font-bold text-center uppercase text-9xl text-shadow-lg">
           New Wave Stack
         </h1>
         <p className="mt-6 text-lg text-center text-shadow-lg">

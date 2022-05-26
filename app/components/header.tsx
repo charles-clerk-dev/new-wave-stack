@@ -16,7 +16,7 @@ export default function Header() {
         </header>
       </SignedIn>
       <SignedOut>
-        <header className="h-[10vh]"></header>
+        <header className="h-[10vh] backdrop-blur-sm"></header>
       </SignedOut>
     </>
   );
