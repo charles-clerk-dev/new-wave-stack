@@ -468,10 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -480,11 +476,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .mb-4 {
@@ -537,10 +528,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-7 {
   height: 1.75rem;
-}
-
-.h-\[60vh\] {
-  height: 60vh;
 }
 
 .w-screen {
@@ -609,10 +596,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/cdn\.pixabay\.com\/photo\/2020\/02\/17\/11\/01\/dj-4856148_1280\.jpg\'\)\] {
-  background-image: url('https://cdn.pixabay.com/photo/2020/02/17/11/01/dj-4856148_1280.jpg');
-}
-
 .bg-\[url\(\'\/images\/background\.jpg\'\)\] {
   background-image: url('/images/background.jpg');
 }
@@ -651,10 +634,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-20 {
   padding-bottom: 5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .text-center {
