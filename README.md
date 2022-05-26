@@ -1,6 +1,6 @@
 # Remix Disco Stack
 
-![The Remix Disco Stack](https://user-images.githubusercontent.com/96198083/170325092-742ab059-a2c4-4fd3-8e50-22b681ee70ad.png)
+![The Remix Disco Stack](https://user-images.githubusercontent.com/96198083/170412378-b529b437-cd82-4fd4-add7-4abcfd64997c.png)
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
@@ -73,7 +73,8 @@ npm run dev
 
 Visit http://localhost:3000/. If everything is set up correctly, you should see something that looks like this:
 
-<img width="1785" alt="Disco Remix Stack Demo" src="https://user-images.githubusercontent.com/96198083/170355398-641b4b27-df5d-48cd-a8f1-a5cca6c253a1.png">
+<img width="1771" alt="Screen Shot 2022-05-25 at 9 52 23 PM" src="https://user-images.githubusercontent.com/96198083/170412460-f1b7884e-f1bc-445e-bc1d-79691fc1dafb.png">
+
 
 That's it! You're all set to start building your Remix application with complete user management provided by Clerk.
 
