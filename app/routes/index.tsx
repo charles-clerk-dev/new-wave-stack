@@ -9,7 +9,7 @@ export default function Index() {
     <main className="flex flex-col items-center justify-center flex-1 text-white backdrop-blur-sm">
       <div className="pb-10">
         <h1 className="font-bold uppercase text-9xl text-shadow-lg">
-          Disco Stack
+          New Wave Stack
         </h1>
         <p className="mt-6 text-lg text-center text-shadow-lg">
           Check out the README for instructions on how to get this project
@@ -34,7 +34,8 @@ export default function Index() {
       </SignedOut>
       <SignedIn>
         <h2 className="pb-20 text-5xl font-bold text-shadow-lg">
-          {['Hey', user?.firstName].filter(Boolean).join(' ')}, let's boogie...
+          {['Hey', user?.firstName].filter(Boolean).join(' ')}, sweet dreams are
+          made of this...
         </h2>
       </SignedIn>
       <LogoBanner />

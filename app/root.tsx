@@ -22,7 +22,7 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'Disco Stack',
+  title: 'New Wave Stack',
   viewport: 'width=device-width,initial-scale=1'
 });
 
@@ -34,7 +34,7 @@ function App() {
         <Links />
       </head>
       <body>
-        <section className="flex flex-col h-screen w-screen bg-[url('https://cdn.pixabay.com/photo/2020/02/17/11/01/dj-4856148_1280.jpg')] bg-cover bg-no-repeat overflow-hidden">
+        <section className="flex flex-col h-screen w-screen bg-[url('/images/background.jpg')] bg-cover bg-no-repeat overflow-hidden">
           <Header />
           <Outlet />
         </section>

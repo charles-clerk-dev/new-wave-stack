@@ -1,6 +1,6 @@
-# Remix Disco Stack
+# New Wave Stack
 
-![The Remix Disco Stack](https://user-images.githubusercontent.com/96198083/170412378-b529b437-cd82-4fd4-add7-4abcfd64997c.png)
+![The New Wave Stack](https://user-images.githubusercontent.com/96198083/170412378-b529b437-cd82-4fd4-add7-4abcfd64997c.png)
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
@@ -26,10 +26,10 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 
 Create a new application from the Clerk dashboard. Check out the Clerk docs for more information about **[setting up your Clerk application.](https://clerk.dev/docs/how-to/set-up-your-application)**
 
-### Create a new application using the Disco Stack Template:
+### Create a new application using the New Wave Stack Template:
 
 ```sh
-npx create-remix@latest --template charles-clerk-dev/remix-disco-stack <your-app>
+npx create-remix@latest --template charles-clerk-dev/new-wave-stack <your-app>
 ```
 
 ### Navigate into your project directory
@@ -74,7 +74,6 @@ npm run dev
 Visit http://localhost:3000/. If everything is set up correctly, you should see something that looks like this:
 
 <img width="1771" alt="Screen Shot 2022-05-25 at 9 52 23 PM" src="https://user-images.githubusercontent.com/96198083/170412460-f1b7884e-f1bc-445e-bc1d-79691fc1dafb.png">
-
 
 That's it! You're all set to start building your Remix application with complete user management provided by Clerk.
 

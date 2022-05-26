@@ -1,5 +1,5 @@
 {
-  "name": "remix-disco-stack",
+  "name": "new-wave-stack",
   "private": true,
   "description": "The Remix Stack for deploying to Netlify with Clerk authentication, Fauna database client, testing, linting, and more.",
   "keywords": [
