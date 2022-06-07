@@ -4,7 +4,7 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-For more on our thoughts on the New Wave Stack check out our blog post.[Blog Post](https://clerk.dev/blog/new-wave-stack)
+For more on our thoughts on the New Wave Stack check out our [blog post.](https://clerk.dev/blog/new-wave-stack)
 
 To view this template in deployment visit: [new-wave-stack.netlify.app](https://new-wave-stack.netlify.app/)
 
